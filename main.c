@@ -8,7 +8,7 @@ L1:
         goto L2;         // forward jump ignored
     }
     // ...
-    goto L1;           // Noncompliant
+    // goto L1;           // Noncompliant
 L2:
     return ++j;
 }
